@@ -1,0 +1,228 @@
+{
+  "title": "R100 review: author-export Cobimetinib profile",
+  "published_figure_protocol_confirmed": false,
+  "scenario_count": 15,
+  "original_Table_S3_data_retained": true,
+  "scenarios": [
+    {
+      "file": "data/PSN1_tak_KSR0.json",
+      "conditions": {
+        "cell_line": "PSN1",
+        "ksr1_condition": "custom",
+        "KSR1_nM": 0.0,
+        "drug": "tak",
+        "dose_over_Kd": 10.0,
+        "exposure_hours": 24,
+        "calculation_mode": "dose_response"
+      },
+      "parameter_profile": "Table_S3",
+      "sha256": "1c3d811ba60f0ad20e0a7695e26ce67ad40d8447cd5e39fee6f6e8fc2d79e33a"
+    },
+    {
+      "file": "data/PSN1_tak_KSR100.json",
+      "conditions": {
+        "cell_line": "PSN1",
+        "ksr1_condition": "custom",
+        "KSR1_nM": 100.0,
+        "drug": "tak",
+        "dose_over_Kd": 10.0,
+        "exposure_hours": 24,
+        "calculation_mode": "dose_response"
+      },
+      "parameter_profile": "Table_S3",
+      "sha256": "e0c9a68b0c9286deb7aab9631621133698c3a75ef69d5e368765cb203d4d69e9"
+    },
+    {
+      "file": "data/PSN1_tak_KSR15.json",
+      "conditions": {
+        "cell_line": "PSN1",
+        "ksr1_condition": "baseline",
+        "KSR1_nM": 15.0,
+        "drug": "tak",
+        "dose_over_Kd": 10.0,
+        "exposure_hours": 24,
+        "calculation_mode": "dose_response"
+      },
+      "parameter_profile": "Table_S3",
+      "sha256": "7025441b618540c7d602cd872febdc95cf53b8e244b582916dbbd403bb89b091"
+    },
+    {
+      "file": "data/MCF7_cobi_KSR50.json",
+      "conditions": {
+        "cell_line": "MCF7",
+        "ksr1_condition": "custom",
+        "KSR1_nM": 50.0,
+        "drug": "cobi",
+        "dose_over_Kd": 10.0,
+        "exposure_hours": 48,
+        "calculation_mode": "dose_response",
+        "fM": 1.0,
+        "parameter_profile": "author_export_default"
+      },
+      "parameter_profile": "author_export_default",
+      "sha256": "d1121845e1a9b7578fbe2adeb138ae82522cfbc76a1313d4999c3f46fb25b4ea"
+    },
+    {
+      "file": "data/PSN1_enc_KSR30.json",
+      "conditions": {
+        "cell_line": "PSN1",
+        "ksr1_condition": "custom",
+        "KSR1_nM": 30.0,
+        "drug": "enc",
+        "dose_over_Kd": 10.0,
+        "exposure_hours": 24,
+        "calculation_mode": "dose_response"
+      },
+      "parameter_profile": "Table_S3",
+      "sha256": "03d93e4d1cae41e0a2c4424322159e934d1700da64c17d829e08859a3d5fc0ae"
+    },
+    {
+      "file": "data/MCF7_cobi_KSR30.json",
+      "conditions": {
+        "cell_line": "MCF7",
+        "ksr1_condition": "custom",
+        "KSR1_nM": 30.0,
+        "drug": "cobi",
+        "dose_over_Kd": 10.0,
+        "exposure_hours": 48,
+        "calculation_mode": "dose_response",
+        "fM": 1.0,
+        "parameter_profile": "author_export_default"
+      },
+      "parameter_profile": "author_export_default",
+      "sha256": "be6f29170545b2dbea7906cba839ee4558525eeeaba0c3eaac83f53361e7851b"
+    },
+    {
+      "file": "data/MCF7_cobi_KSR100.json",
+      "conditions": {
+        "cell_line": "MCF7",
+        "ksr1_condition": "custom",
+        "KSR1_nM": 100.0,
+        "drug": "cobi",
+        "dose_over_Kd": 10.0,
+        "exposure_hours": 48,
+        "calculation_mode": "dose_response",
+        "fM": 1.0,
+        "parameter_profile": "author_export_default"
+      },
+      "parameter_profile": "author_export_default",
+      "sha256": "1d860c1945ca8b4ec0750f50731e645e7c80b898392bc9ddf48e698c8524e826"
+    },
+    {
+      "file": "data/PSN1_tak_KSR30.json",
+      "conditions": {
+        "cell_line": "PSN1",
+        "ksr1_condition": "custom",
+        "KSR1_nM": 30.0,
+        "drug": "tak",
+        "dose_over_Kd": 10.0,
+        "exposure_hours": 24,
+        "calculation_mode": "dose_response"
+      },
+      "parameter_profile": "Table_S3",
+      "sha256": "65b65994c2434dec72223e31be30d19684095dec3fd58aa0cfc4ecc1fb750338"
+    },
+    {
+      "file": "data/PSN1_enc_KSR100.json",
+      "conditions": {
+        "cell_line": "PSN1",
+        "ksr1_condition": "custom",
+        "KSR1_nM": 100.0,
+        "drug": "enc",
+        "dose_over_Kd": 10.0,
+        "exposure_hours": 24,
+        "calculation_mode": "dose_response"
+      },
+      "parameter_profile": "Table_S3",
+      "sha256": "a3c14b785a9e93297bfe3f03af2e35a423078bcb74517083df27f311740d0b02"
+    },
+    {
+      "file": "data/PSN1_enc_KSR50.json",
+      "conditions": {
+        "cell_line": "PSN1",
+        "ksr1_condition": "custom",
+        "KSR1_nM": 50.0,
+        "drug": "enc",
+        "dose_over_Kd": 10.0,
+        "exposure_hours": 24,
+        "calculation_mode": "dose_response"
+      },
+      "parameter_profile": "Table_S3",
+      "sha256": "1066e862bd0bc857d39b1760db2963f6bd077e80ebc4672a4cf71b5d1dabfe9c"
+    },
+    {
+      "file": "data/PSN1_enc_KSR15.json",
+      "conditions": {
+        "cell_line": "PSN1",
+        "ksr1_condition": "baseline",
+        "KSR1_nM": 15.0,
+        "drug": "enc",
+        "dose_over_Kd": 10.0,
+        "exposure_hours": 24,
+        "calculation_mode": "dose_response"
+      },
+      "parameter_profile": "Table_S3",
+      "sha256": "4280655cb7fdc50a80cc847986db49d7b9d2e0df139f8c52f73ea4ed50c0a576"
+    },
+    {
+      "file": "data/MCF7_cobi_KSR0.json",
+      "conditions": {
+        "cell_line": "MCF7",
+        "ksr1_condition": "custom",
+        "KSR1_nM": 0.0,
+        "drug": "cobi",
+        "dose_over_Kd": 10.0,
+        "exposure_hours": 48,
+        "calculation_mode": "dose_response",
+        "fM": 1.0,
+        "parameter_profile": "author_export_default"
+      },
+      "parameter_profile": "author_export_default",
+      "sha256": "fcfa4c4adb36e85ee19a9e1d78a734c100ee9671f30be47c660c1a7a4250ca15"
+    },
+    {
+      "file": "data/MCF7_cobi_KSR15.json",
+      "conditions": {
+        "cell_line": "MCF7",
+        "ksr1_condition": "baseline",
+        "KSR1_nM": 15.0,
+        "drug": "cobi",
+        "dose_over_Kd": 10.0,
+        "exposure_hours": 48,
+        "calculation_mode": "dose_response",
+        "fM": 1.0,
+        "parameter_profile": "author_export_default"
+      },
+      "parameter_profile": "author_export_default",
+      "sha256": "c6c0f2ae4dc0f2f8b9494a1ebe1fc1852d2530c7439d2ad5677a225801fb1e5d"
+    },
+    {
+      "file": "data/PSN1_tak_KSR50.json",
+      "conditions": {
+        "cell_line": "PSN1",
+        "ksr1_condition": "custom",
+        "KSR1_nM": 50.0,
+        "drug": "tak",
+        "dose_over_Kd": 10.0,
+        "exposure_hours": 24,
+        "calculation_mode": "dose_response"
+      },
+      "parameter_profile": "Table_S3",
+      "sha256": "9bdb01e45d1e2964257f7170b12fe07b23de7260d02fb1627c5a5bf4a5afd156"
+    },
+    {
+      "file": "data/PSN1_enc_KSR0.json",
+      "conditions": {
+        "cell_line": "PSN1",
+        "ksr1_condition": "custom",
+        "KSR1_nM": 0.0,
+        "drug": "enc",
+        "dose_over_Kd": 10.0,
+        "exposure_hours": 24,
+        "calculation_mode": "dose_response"
+      },
+      "parameter_profile": "Table_S3",
+      "sha256": "714cb0aa4f411ab1fd76c15b5f4b6cf80d094e3ebbf35f12d6ae81ab7dda8ee8"
+    }
+  ]
+}

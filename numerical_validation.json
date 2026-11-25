@@ -1,0 +1,337 @@
+{
+  "scope": "R100 investigative candidate; fM=1 for Cobimetinib; exact author figure protocol unconfirmed",
+  "native_export_default": {
+    "conditions": {
+      "cell": "MCF7",
+      "KSR1_nM": 100,
+      "fM": 1,
+      "hours": 48
+    },
+    "scope": "Independent native CVODE integration from the same saved baseline; tolerance 1e-8",
+    "checks": [
+      {
+        "dose_over_Kd": 0,
+        "native_ppERK_nM": 864.2591705051815,
+        "sparse_ppERK_nM": 864.2591705039989,
+        "relative_ppERK_difference": 1.3683053953468696e-12,
+        "maximum_species_scaled_difference": 4.9657943470987655e-12,
+        "native_conservation_error": 3.039701823640673e-12,
+        "minimum_species": -6.250450488425708e-27,
+        "effective_fM": 1.0,
+        "passed": true
+      },
+      {
+        "dose_over_Kd": 1,
+        "native_ppERK_nM": 705.2201365153554,
+        "sparse_ppERK_nM": 705.220136515222,
+        "relative_ppERK_difference": 1.8925770915259606e-13,
+        "maximum_species_scaled_difference": 1.1270038775568833e-11,
+        "native_conservation_error": 7.102727295258339e-12,
+        "minimum_species": 0.0,
+        "effective_fM": 1.0,
+        "passed": true
+      },
+      {
+        "dose_over_Kd": 10,
+        "native_ppERK_nM": 275.5599915407475,
+        "sparse_ppERK_nM": 275.5599915351934,
+        "relative_ppERK_difference": 2.015573299453159e-11,
+        "maximum_species_scaled_difference": 2.393892746578562e-10,
+        "native_conservation_error": 2.0422419311612954e-10,
+        "minimum_species": 0.0,
+        "effective_fM": 1.0,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  "new_Cobimetinib_curves": [
+    {
+      "file": "MCF7_cobi_KSR0.json",
+      "validation": {
+        "rtol": 1e-08,
+        "atol": 1e-08,
+        "baseline_residual_per_s": 1.6854157730633819e-13,
+        "max_protein_conservation_relative_error": 1.73095315858518e-11,
+        "minimum_species_amount_nM": 0.0,
+        "validated_doses": [
+          0,
+          0.05,
+          0.1,
+          0.2,
+          0.3,
+          0.5,
+          0.75,
+          1,
+          1.5,
+          2,
+          3,
+          4,
+          5,
+          7.5,
+          10
+        ],
+        "numerical_conservation_passed": true,
+        "figure_protocol_confirmed": false
+      }
+    },
+    {
+      "file": "MCF7_cobi_KSR100.json",
+      "validation": {
+        "rtol": 1e-08,
+        "atol": 1e-08,
+        "baseline_residual_per_s": 1.920278279242564e-14,
+        "max_protein_conservation_relative_error": 1.6044751305344107e-10,
+        "minimum_species_amount_nM": 0.0,
+        "validated_doses": [
+          0,
+          0.05,
+          0.1,
+          0.2,
+          0.3,
+          0.5,
+          0.75,
+          1,
+          1.5,
+          2,
+          3,
+          4,
+          5,
+          7.5,
+          10
+        ],
+        "numerical_conservation_passed": true,
+        "figure_protocol_confirmed": false,
+        "independent_native_CVODE_check": {
+          "conditions": {
+            "cell": "MCF7",
+            "KSR1_nM": 100,
+            "fM": 1,
+            "hours": 48
+          },
+          "scope": "Independent native CVODE integration from the same saved baseline; tolerance 1e-8",
+          "checks": [
+            {
+              "dose_over_Kd": 0,
+              "native_ppERK_nM": 864.2591705051815,
+              "sparse_ppERK_nM": 864.2591705039989,
+              "relative_ppERK_difference": 1.3683053953468696e-12,
+              "maximum_species_scaled_difference": 4.9657943470987655e-12,
+              "native_conservation_error": 3.039701823640673e-12,
+              "minimum_species": -6.250450488425708e-27,
+              "effective_fM": 1.0,
+              "passed": true
+            },
+            {
+              "dose_over_Kd": 1,
+              "native_ppERK_nM": 705.2201365153554,
+              "sparse_ppERK_nM": 705.220136515222,
+              "relative_ppERK_difference": 1.8925770915259606e-13,
+              "maximum_species_scaled_difference": 1.1270038775568833e-11,
+              "native_conservation_error": 7.102727295258339e-12,
+              "minimum_species": 0.0,
+              "effective_fM": 1.0,
+              "passed": true
+            },
+            {
+              "dose_over_Kd": 10,
+              "native_ppERK_nM": 275.5599915407475,
+              "sparse_ppERK_nM": 275.5599915351934,
+              "relative_ppERK_difference": 2.015573299453159e-11,
+              "maximum_species_scaled_difference": 2.393892746578562e-10,
+              "native_conservation_error": 2.0422419311612954e-10,
+              "minimum_species": 0.0,
+              "effective_fM": 1.0,
+              "passed": true
+            }
+          ],
+          "passed": true
+        }
+      }
+    },
+    {
+      "file": "MCF7_cobi_KSR15.json",
+      "validation": {
+        "rtol": 1e-08,
+        "atol": 1e-08,
+        "baseline_residual_per_s": 3.0415337213241946e-15,
+        "max_protein_conservation_relative_error": 2.6274816396683796e-10,
+        "minimum_species_amount_nM": 0.0,
+        "validated_doses": [
+          0,
+          0.05,
+          0.1,
+          0.2,
+          0.3,
+          0.5,
+          0.75,
+          1,
+          1.5,
+          2,
+          3,
+          4,
+          5,
+          7.5,
+          10
+        ],
+        "numerical_conservation_passed": true,
+        "figure_protocol_confirmed": false
+      }
+    },
+    {
+      "file": "MCF7_cobi_KSR30.json",
+      "validation": {
+        "rtol": 1e-08,
+        "atol": 1e-08,
+        "baseline_residual_per_s": 4.406576259967821e-15,
+        "max_protein_conservation_relative_error": 7.73854461992111e-11,
+        "minimum_species_amount_nM": 0.0,
+        "validated_doses": [
+          0,
+          0.05,
+          0.1,
+          0.2,
+          0.3,
+          0.5,
+          0.75,
+          1,
+          1.5,
+          2,
+          3,
+          4,
+          5,
+          7.5,
+          10
+        ],
+        "numerical_conservation_passed": true,
+        "figure_protocol_confirmed": false
+      }
+    },
+    {
+      "file": "MCF7_cobi_KSR50.json",
+      "validation": {
+        "rtol": 1e-08,
+        "atol": 1e-08,
+        "baseline_residual_per_s": 4.709827483126294e-15,
+        "max_protein_conservation_relative_error": 1.1314867265355133e-10,
+        "minimum_species_amount_nM": 0.0,
+        "validated_doses": [
+          0,
+          0.05,
+          0.1,
+          0.2,
+          0.3,
+          0.5,
+          0.75,
+          1,
+          1.5,
+          2,
+          3,
+          4,
+          5,
+          7.5,
+          10
+        ],
+        "numerical_conservation_passed": true,
+        "figure_protocol_confirmed": false
+      }
+    }
+  ],
+  "full_original_MCF7_equations": {
+    "scope": "All 2743 floating-species ODEs and all 17848 original reactions, without reaction/species removal or zero-subspace projection; independently initialized from author MCF7 SBML",
+    "source_sha256": "5b66fe24baa5eaa779c659ce92e82e6f0683795e488c99de74317ab06a2ccb72",
+    "integrator": "SciPy BDF, rtol=atol=1e-8",
+    "points": [
+      {
+        "fM": 0.1,
+        "dose_over_Kd": 0,
+        "full_ppERK_nM": 864.2591705379139,
+        "normalized_ppERK": 1.0,
+        "saved_reduced_ppERK_nM": 864.2591704968384,
+        "relative_difference": 4.7526842197815974e-11,
+        "conservation_error": 1.1417967016313924e-10,
+        "minimum_amount": -4.357432125830788e-24,
+        "passed": true
+      },
+      {
+        "fM": 0.1,
+        "dose_over_Kd": 1,
+        "full_ppERK_nM": 861.4431060092434,
+        "normalized_ppERK": 0.9967416434506355,
+        "saved_reduced_ppERK_nM": 861.4431059768939,
+        "relative_difference": 3.7552655260904724e-11,
+        "conservation_error": 1.1540564059941971e-10,
+        "minimum_amount": -1.6733678851079128e-21,
+        "passed": true
+      },
+      {
+        "fM": 0.1,
+        "dose_over_Kd": 10,
+        "full_ppERK_nM": 284.8662446039224,
+        "normalized_ppERK": 0.32960743063521325,
+        "saved_reduced_ppERK_nM": 284.8662446036976,
+        "relative_difference": 7.889979330058544e-13,
+        "conservation_error": 1.3444036994769703e-10,
+        "minimum_amount": -5.059068686548299e-25,
+        "passed": true
+      },
+      {
+        "fM": 1.0,
+        "dose_over_Kd": 0,
+        "full_ppERK_nM": 864.259170537919,
+        "normalized_ppERK": 1.0,
+        "saved_reduced_ppERK_nM": 864.2591705039989,
+        "relative_difference": 3.924755537029505e-11,
+        "conservation_error": 1.1328211257932708e-10,
+        "minimum_amount": -1.7459025510033496e-25,
+        "passed": true
+      },
+      {
+        "fM": 1.0,
+        "dose_over_Kd": 1,
+        "full_ppERK_nM": 705.2201365418922,
+        "normalized_ppERK": 0.8159822430382311,
+        "saved_reduced_ppERK_nM": 705.220136515222,
+        "relative_difference": 3.781833306582064e-11,
+        "conservation_error": 1.1674075039991294e-10,
+        "minimum_amount": -1.8736501362428577e-25,
+        "passed": true
+      },
+      {
+        "fM": 1.0,
+        "dose_over_Kd": 10,
+        "full_ppERK_nM": 275.5599915535164,
+        "normalized_ppERK": 0.31883953442114654,
+        "saved_reduced_ppERK_nM": 275.5599915351934,
+        "relative_difference": 6.649376500242805e-11,
+        "conservation_error": 5.038435801907326e-10,
+        "minimum_amount": -6.752483839105713e-29,
+        "passed": true
+      }
+    ],
+    "baseline_residual_before_noise_cleanup": 1.858625835114935e-15,
+    "passed": true,
+    "compiled_full_rhs_max_scaled_probe_error": 0.0
+  },
+  "optional_full_native_CVODE": {
+    "scope": "full unmodified author MCF7 SBML; native CVODE; independent initialization; fM=0.1 from Table S3; KSR1=100 nM",
+    "source_sha256": "5b66fe24baa5eaa779c659ce92e82e6f0683795e488c99de74317ab06a2ccb72",
+    "floating_species": 2743,
+    "reaction_records": 17848,
+    "author_observable": "__obs33",
+    "points": [
+      {
+        "dose_over_Kd": 0,
+        "ppERK_nM": 864.2591736870864,
+        "free_ppERK_nM": 779.966244731824,
+        "conservation_error": 9.578367325957516e-09,
+        "minimum_amount": -1.334185989919918e-26,
+        "effective_fM": 0.1,
+        "normalized_ppERK": 1.0
+      }
+    ],
+    "complete": false,
+    "stop_reason": "Stopped redundant optional dense full-model CVODE after baseline/control; six full-ODE sparse BDF checks and three reduced native-CVODE checks completed independently."
+  },
+  "passed": true
+}
